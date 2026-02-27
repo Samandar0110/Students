@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #f4f6f9;
+        }
+        
+        ul,ol {
+            list-style: none;
+        }
+
+       .div {
+        gap: 20px;
+        display: flex;
+       }
+
+        .item-img {
+            border-radius: 50%;
+        }
+
+        
+
+        .list {
+            gap: 40px;
+            display: flex;
+            flex-wrap: wrap;
+        }
+
+        .item {
+            padding: 20px;
+            width: 360px;
+            border-radius: 30px;
+            background-color: white;
+        }
+
+        .box {
+            display: flex;
+            flex-direction: column;
+        }
+
+        .royhat{
+            display: flex;
+            justify-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <h1 class="royhat"><strong>O'quvchilar royxati</strong></h1>
+    <ul class="list">
+        <li class="item">
+            <div class="div">
+                <img src="https://randomuser.me/api/portraits/men/1.jpg" alt="" class="item-img">
+                <div class="box">
+                    <h3 class="title">Alimardon Mansurov</h3>
+                    <p class="text">Junior</p>
+                </div>
+            </div>
+            <p class="info"><strong>📘Kurs: Frontend Development</strong></p>
+            <p class="info"><strong>🎂Yosh: 17</strong></p>
+            <p class="info"><strong>📞Tel: +998901111111</strong></p>
+        </li>
+    </ul>
+    <script src="students.js"></script>
+    <script src="main.js"></script>
+
+</html>
